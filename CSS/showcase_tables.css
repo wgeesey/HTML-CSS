@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 6
+   Case Problem 1
+
+   Tables Style Sheet
+   Author: William Geesey
+   Date: 5/26/2023   
+
+   Filename:         mi_tables.css
+
+*/
+
+/* Table Styles */
+
+table#assignments {
+	background-image: linear-gradient(rgb(173, 201, 215) 50%, rgb(113, 141, 155));
+	border: 5px solid gray;
+	margin: auto;
+	height: auto;
+	width: auto;
+}
+
+table#assignments th, table#assignments td {
+	border: 3px solid gray;
+	line-height: 1.3em;
+	padding: 8px;
+}
+
+table#assignments th {
+	color: white;
+	font-size: 0.9em;
+	font-weight: normal;
+}
+
+table#assignments td {
+	font-size: 0.9em;
+	text-align: top;
+}
+
+/* Table Caption Styles */
+
+table#assignments caption { 
+	caption-side: bottom; 
+	text-align: center;
+	font-weight: bold;
+}
+
+/* Column Styles */
+
+
+/* Table Header Styles */
+
+table#assignments thead > tr {
+	height: 60px;
+	color: white;
+}
+
+
+
+
+
+
